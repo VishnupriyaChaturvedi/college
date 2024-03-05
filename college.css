@@ -1,0 +1,97 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* Style the main sections */
+section {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the home section */
+#home {
+    background-color: #f4f4f4;
+}
+
+#home h2 {
+    color: #333;
+}
+
+#home p {
+    color: #555;
+}
+
+/* Style the about section */
+#about {
+    background-color: #e6e6e6;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    color: #555;
+}
+
+/* Style the gallery section */
+#gallery {
+    background-color: #f4f4f4;
+}
+
+#gallery h2 {
+    color: #333;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #e6e6e6;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #555;
+}
